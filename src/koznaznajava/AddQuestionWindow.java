@@ -161,7 +161,7 @@ public class AddQuestionWindow extends javax.swing.JFrame {
                     try {
                         Connection c = DriverManager.getConnection(KoZnaZnaJava.QUESTIONS_DATABASE_URL);
                         Statement s = c.createStatement();
-                        
+                        /**/
                         suggestedQuestion = jTextAreaSuggestedQuestion.getText();
                         suggestedCorrectAnswer = jTextFieldCorrectAnswer.getText();
                         suggestedFalseAnswer1 = jTextFieldFalseAnswer1.getText();
